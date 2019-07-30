@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.Scanner;
+public class suminjava
+{
+   public static void main(String ar[]) throws IOException
+   {
+ int a,b,c;  
+InputStreamReader ir=new InputStreamReader(System.in);
+BufferedReader br=new BufferedReader(ir);
+System.out.println("enter first no");
+String s=br.readLine();
+a=Integer.parseInt(s);
+System.out.println("enter second no");
+String s1=br.readLine();
+b=Integer.parseInt(s1);
+c=a+b;
+System.out.println("sum"+c);
+   }
+}
