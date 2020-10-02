@@ -1,3 +1,5 @@
+//Adding a comment here: Program to compute sum of two numbers.
+
 import java.util.Scanner;
 public class sum1
 {
